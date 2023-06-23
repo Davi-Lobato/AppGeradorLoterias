@@ -1,0 +1,25 @@
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\reina\OneDrive\Documentos\My Web Sites\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe.config
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.exe
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\bin\Debug\AppGeradorLoterias.pdb
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.AssemblyReference.cache
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.SuggestedBindingRedirects.cache
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Form1.resources
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormLotoFacil.resources
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Properties.Resources.resources
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.GenerateResource.cache
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.csproj.CoreCompileInputs.cache
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.exe
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.pdb
+C:\Users\2023102060049\Documents\GitHub\AppGeradorLoterias\AppGeradorLoterias\AppGeradorLoterias\obj\Debug\AppGeradorLoterias.Formularios.FormMegaSena.resources
