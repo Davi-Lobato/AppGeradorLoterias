@@ -10,11 +10,10 @@ using System.Windows.Forms;
 
 namespace AppGeradorLoterias.Formularios
 {
-    public partial class FormLotoFacil : Form
+    public partial class FormSuperSete : Form
     {
         public List<int> NumeroDaSorte = new List<int>();
-
-        public FormLotoFacil()
+        public FormSuperSete()
         {
             InitializeComponent();
         }
@@ -23,12 +22,13 @@ namespace AppGeradorLoterias.Formularios
         {
             lbPar.Text = "PARES: " + par;
             lbImpar.Text = "ÍMPARES: " + impar;
-            if (impar == 8 && par == 7) { lbClass.Text = "MUITO ALTO!"; lbClass.ForeColor = Color.Green; }// Fim do if
-            if (impar == 7 && par == 8) { lbClass.Text = "ALTO!"; lbClass.ForeColor = Color.Green; }// Fim do if
-            if (impar == 9 && par == 6) { lbClass.Text = "MÉDIO!"; lbClass.ForeColor = Color.Orange; }// Fim do if
-            if (impar == 6 && par == 9) { lbClass.Text = "BAIXO!"; lbClass.ForeColor = Color.Red; }// Fim do if
-            if (impar == 5 && par == 10) { lbClass.Text = "MUITO BAIXO"; lbClass.ForeColor = Color.Red; }// Fim do if
-            if (impar == 10 && par == 5) { lbClass.Text = "MUITO BAIXO"; lbClass.ForeColor = Color.Red; }// Fim do if
+            if (impar == 4 && par == 3) { lbClass.Text = "MUITO ALTO!"; lbClass.ForeColor = Color.Green; }// Fim do if
+            if (impar == 3 && par == 4) { lbClass.Text = "ALTO!"; lbClass.ForeColor = Color.Green; }// Fim do if
+            if (impar == 5 && par == 2) { lbClass.Text = "MÉDIO!"; lbClass.ForeColor = Color.Orange; }// Fim do if
+            if (impar == 2 && par == 5) { lbClass.Text = "BAIXO!"; lbClass.ForeColor = Color.Red; }// Fim do if
+            if (impar >= 6 && par <= 1) { lbClass.Text = "MUITO BAIXO"; lbClass.ForeColor = Color.Red; }// Fim do if
+            if (impar <= 1 && par >= 6) { lbClass.Text = "MUITO BAIXO"; lbClass.ForeColor = Color.Red; }// Fim do if
+
         }//Fim da Função
 
         public void GerarNumeros()
@@ -40,17 +40,15 @@ namespace AppGeradorLoterias.Formularios
             Random radNum = new Random();//Obj para gerar números aleatórios
             NumeroDaSorte.Clear();
 
-            while (cont < 15)
+            while (cont < 7)
             {
-                numero = radNum.Next(1 , 26);//números aleatórios nesse raio
-                if (!NumeroDaSorte.Contains(numero))
-                {
-                    NumeroDaSorte.Add(numero);
-                    if (numero % 2 ==  0) qtdpar++;
-                    if (numero % 2 == 1) qtdimpar++;
-                    cont++;
-                }//Fim o if
+                numero = radNum.Next(0, 10);//números aleatórios nesse raio
+                NumeroDaSorte.Add(numero);
+                if (numero % 2 == 0) qtdpar++;
+                if (numero % 2 == 1) qtdimpar++;
+                cont++;
             }//Fim do laço
+
             NumeroDaSorte = NumeroDaSorte.OrderBy(num => num).ToList();//Colocar em ordem crescente
             Comparacao(qtdpar, qtdimpar);
             dtvNumeros.DataSource = NumeroDaSorte.Select(Numeros => new { numero = Numeros }).ToList();
@@ -60,21 +58,21 @@ namespace AppGeradorLoterias.Formularios
         public void LimparTabela()
         {
             NumeroDaSorte.Clear();
-            dtvNumeros.DataSource = NumeroDaSorte.Select(Numeros => new {Numero = Numeros}).ToList();
+            dtvNumeros.DataSource = NumeroDaSorte.Select(Numeros => new { Numero = Numeros }).ToList();
+        }
+
+        private void btGerar_Click(object sender, EventArgs e)
+        {
+            GerarNumeros();
         }
 
         private void btLimpar_Click(object sender, EventArgs e)
         {
             LimparTabela();
             lbClass.Text = "CLASSIFICAÇÃO";
-            lbClass.ForeColor = Color.MediumVioletRed;
+            lbClass.ForeColor = Color.SaddleBrown;
             lbPar.Text = "PARES";
             lbImpar.Text = "ÍMPARES";
-        }
-
-        private void btGerar_Click(object sender, EventArgs e)
-        {
-            GerarNumeros();
         }
     }
 }

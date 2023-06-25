@@ -1,6 +1,6 @@
 ﻿namespace AppGeradorLoterias.Formularios
 {
-    partial class FormLotoFacil
+    partial class FormQuina
     {
         /// <summary>
         /// Required designer variable.
@@ -39,63 +39,63 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.dtvNumeros = new System.Windows.Forms.DataGridView();
-            this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btLimpar = new System.Windows.Forms.Button();
             this.btGerar = new System.Windows.Forms.Button();
+            this.NÚMERO = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dtvNumeros)).BeginInit();
             this.SuspendLayout();
             // 
             // lbClass
             // 
             this.lbClass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbClass.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.lbClass.Location = new System.Drawing.Point(82, 258);
+            this.lbClass.ForeColor = System.Drawing.Color.Blue;
+            this.lbClass.Location = new System.Drawing.Point(72, 258);
             this.lbClass.Name = "lbClass";
             this.lbClass.Size = new System.Drawing.Size(162, 24);
-            this.lbClass.TabIndex = 38;
+            this.lbClass.TabIndex = 46;
             this.lbClass.Text = "CLASSIFICAÇÃO";
             // 
             // lbImpar
             // 
             this.lbImpar.AutoSize = true;
             this.lbImpar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbImpar.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.lbImpar.Location = new System.Drawing.Point(82, 200);
+            this.lbImpar.ForeColor = System.Drawing.Color.Blue;
+            this.lbImpar.Location = new System.Drawing.Point(72, 200);
             this.lbImpar.Name = "lbImpar";
             this.lbImpar.Size = new System.Drawing.Size(89, 20);
-            this.lbImpar.TabIndex = 37;
+            this.lbImpar.TabIndex = 45;
             this.lbImpar.Text = "ÍMPARES";
             // 
             // lbPar
             // 
             this.lbPar.AutoSize = true;
             this.lbPar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPar.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.lbPar.Location = new System.Drawing.Point(82, 158);
+            this.lbPar.ForeColor = System.Drawing.Color.Blue;
+            this.lbPar.Location = new System.Drawing.Point(72, 158);
             this.lbPar.Name = "lbPar";
             this.lbPar.Size = new System.Drawing.Size(69, 20);
-            this.lbPar.TabIndex = 36;
+            this.lbPar.TabIndex = 44;
             this.lbPar.Text = "PARES";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.MediumVioletRed;
-            this.label4.Location = new System.Drawing.Point(155, 9);
+            this.label4.ForeColor = System.Drawing.Color.Blue;
+            this.label4.Location = new System.Drawing.Point(190, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 25);
-            this.label4.TabIndex = 35;
-            this.label4.Text = "LOTOFÁCIL";
+            this.label4.Size = new System.Drawing.Size(82, 25);
+            this.label4.TabIndex = 43;
+            this.label4.Text = "QUINA";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(276, 44);
+            this.label3.Location = new System.Drawing.Point(266, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(164, 16);
-            this.label3.TabIndex = 34;
+            this.label3.TabIndex = 42;
             this.label3.Text = "NÚMEROS DA SORTE";
             // 
             // dtvNumeros
@@ -121,7 +121,7 @@
             dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
             this.dtvNumeros.DefaultCellStyle = dataGridViewCellStyle4;
-            this.dtvNumeros.Location = new System.Drawing.Point(278, 63);
+            this.dtvNumeros.Location = new System.Drawing.Point(268, 63);
             this.dtvNumeros.Name = "dtvNumeros";
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Control;
@@ -132,8 +132,28 @@
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dtvNumeros.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.dtvNumeros.RowHeadersWidth = 51;
-            this.dtvNumeros.Size = new System.Drawing.Size(163, 375);
-            this.dtvNumeros.TabIndex = 29;
+            this.dtvNumeros.Size = new System.Drawing.Size(163, 157);
+            this.dtvNumeros.TabIndex = 41;
+            // 
+            // btLimpar
+            // 
+            this.btLimpar.Location = new System.Drawing.Point(16, 91);
+            this.btLimpar.Name = "btLimpar";
+            this.btLimpar.Size = new System.Drawing.Size(200, 23);
+            this.btLimpar.TabIndex = 40;
+            this.btLimpar.Text = "LIMPAR";
+            this.btLimpar.UseVisualStyleBackColor = true;
+            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
+            // 
+            // btGerar
+            // 
+            this.btGerar.Location = new System.Drawing.Point(16, 49);
+            this.btGerar.Name = "btGerar";
+            this.btGerar.Size = new System.Drawing.Size(200, 23);
+            this.btGerar.TabIndex = 39;
+            this.btGerar.Text = "GERAR NÚMEROS DA SORTE";
+            this.btGerar.UseVisualStyleBackColor = true;
+            this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
             // 
             // NÚMERO
             // 
@@ -145,31 +165,11 @@
             this.NÚMERO.Name = "NÚMERO";
             this.NÚMERO.Width = 125;
             // 
-            // btLimpar
-            // 
-            this.btLimpar.Location = new System.Drawing.Point(26, 91);
-            this.btLimpar.Name = "btLimpar";
-            this.btLimpar.Size = new System.Drawing.Size(200, 23);
-            this.btLimpar.TabIndex = 28;
-            this.btLimpar.Text = "LIMPAR";
-            this.btLimpar.UseVisualStyleBackColor = true;
-            this.btLimpar.Click += new System.EventHandler(this.btLimpar_Click);
-            // 
-            // btGerar
-            // 
-            this.btGerar.Location = new System.Drawing.Point(26, 49);
-            this.btGerar.Name = "btGerar";
-            this.btGerar.Size = new System.Drawing.Size(200, 23);
-            this.btGerar.TabIndex = 27;
-            this.btGerar.Text = "GERAR NÚMEROS DA SORTE";
-            this.btGerar.UseVisualStyleBackColor = true;
-            this.btGerar.Click += new System.EventHandler(this.btGerar_Click);
-            // 
-            // FormLotoFacil
+            // FormQuina
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(481, 450);
+            this.ClientSize = new System.Drawing.Size(474, 450);
             this.Controls.Add(this.lbClass);
             this.Controls.Add(this.lbImpar);
             this.Controls.Add(this.lbPar);
@@ -178,8 +178,9 @@
             this.Controls.Add(this.dtvNumeros);
             this.Controls.Add(this.btLimpar);
             this.Controls.Add(this.btGerar);
-            this.Name = "FormLotoFacil";
-            this.Text = "FormLotoFacil";
+            this.Name = "FormQuina";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FormQuina_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtvNumeros)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

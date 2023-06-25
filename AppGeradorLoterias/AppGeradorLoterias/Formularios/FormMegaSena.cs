@@ -73,6 +73,7 @@ namespace AppGeradorLoterias.Formularios
         {
             LimparTabela();
             lbClass.Text = "CLASSIFICAÇÃO";
+            lbClass.ForeColor = Color.Green;
             lbPar.Text = "PARES";
             lbImpar.Text = "ÍMPARES";
         }
